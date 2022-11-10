@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C_Lang",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ASCIIValue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ASCIIValue-Debug-260e51fb20647d8a5337.json",
+					"name" : "ASCIIValue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_Lang::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_Lang-Debug-47c822839b670dcbaa73.json",
+					"name" : "C_Lang",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ClockMath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClockMath-Debug-821a118cba201e275c68.json",
+					"name" : "ClockMath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getFunc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getFunc-Debug-ecaab2e4f380b2166f4c.json",
+					"name" : "getFunc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug",
+		"source" : "C:/Users/Zero Byte/OneDrive/Desktop/C-Lang"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
