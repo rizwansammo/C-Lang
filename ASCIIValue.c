@@ -5,13 +5,13 @@
 
 int main()
 {
-    printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
+    printf("=========Hello There=======");
 
     char c;
-    printf("Enter a character : ");
+    printf("\nEnter a Char:  ");
     scanf("%c" , &c);
-    printf("\n\nASCII value of %c = %d",c,c);
+    printf("\nASCII value of %c = %d",c,c);
 
-    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+    printf("\nThanks");
     return 0;
 }

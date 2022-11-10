@@ -2,5 +2,6 @@ C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/C_Lang.d
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/ClockMath.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/ASCIIValue.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/getFunc.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/If-Else.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/rebuild_cache.dir

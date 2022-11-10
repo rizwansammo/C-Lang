@@ -172,6 +172,39 @@ build getFunc.exe: C_EXECUTABLE_LINKER__getFunc_Debug CMakeFiles/getFunc.dir/get
   TARGET_IMPLIB = libgetFunc.dll.a
   TARGET_PDB = getFunc.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target If-Else
+
+
+#############################################
+# Order-only phony target for If-Else
+
+build cmake_object_order_depends_target_If-Else: phony || CMakeFiles/If-Else.dir
+
+build CMakeFiles/If-Else.dir/If-Else.c.obj: C_COMPILER__If-Else_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/If-Else.c || cmake_object_order_depends_target_If-Else
+  DEP_FILE = CMakeFiles\If-Else.dir\If-Else.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\If-Else.dir
+  OBJECT_FILE_DIR = CMakeFiles\If-Else.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target If-Else
+
+
+#############################################
+# Link the executable If-Else.exe
+
+build If-Else.exe: C_EXECUTABLE_LINKER__If-Else_Debug CMakeFiles/If-Else.dir/If-Else.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\If-Else.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = If-Else.exe
+  TARGET_IMPLIB = libIf-Else.dll.a
+  TARGET_PDB = If-Else.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -204,6 +237,8 @@ build C_Lang: phony C_Lang.exe
 
 build ClockMath: phony ClockMath.exe
 
+build If-Else: phony If-Else.exe
+
 build getFunc: phony getFunc.exe
 
 # =============================================================================
@@ -214,7 +249,7 @@ build getFunc: phony getFunc.exe
 #############################################
 # Folder: C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug
 
-build all: phony C_Lang.exe ClockMath.exe ASCIIValue.exe getFunc.exe
+build all: phony C_Lang.exe ClockMath.exe ASCIIValue.exe getFunc.exe If-Else.exe
 
 # =============================================================================
 # Built-in targets
