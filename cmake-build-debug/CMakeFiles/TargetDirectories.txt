@@ -3,5 +3,9 @@ C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/ClockMat
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/ASCIIValue.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/getFunc.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/If-Else.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/datatypeIO.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/Constant.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/seizeOf.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/Operations.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -107,6 +107,82 @@ rule C_EXECUTABLE_LINKER__If-Else_Debug
 
 
 #############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__datatypeIO_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__datatypeIO_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__Constant_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__Constant_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__seizeOf_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__seizeOf_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__Operations_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__Operations_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\ZEROBY~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\222434~1.21\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for running custom commands.
 
 rule CUSTOM_COMMAND

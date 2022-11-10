@@ -205,6 +205,138 @@ build If-Else.exe: C_EXECUTABLE_LINKER__If-Else_Debug CMakeFiles/If-Else.dir/If-
   TARGET_IMPLIB = libIf-Else.dll.a
   TARGET_PDB = If-Else.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target datatypeIO
+
+
+#############################################
+# Order-only phony target for datatypeIO
+
+build cmake_object_order_depends_target_datatypeIO: phony || CMakeFiles/datatypeIO.dir
+
+build CMakeFiles/datatypeIO.dir/datatypeIO.c.obj: C_COMPILER__datatypeIO_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/datatypeIO.c || cmake_object_order_depends_target_datatypeIO
+  DEP_FILE = CMakeFiles\datatypeIO.dir\datatypeIO.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\datatypeIO.dir
+  OBJECT_FILE_DIR = CMakeFiles\datatypeIO.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target datatypeIO
+
+
+#############################################
+# Link the executable datatypeIO.exe
+
+build datatypeIO.exe: C_EXECUTABLE_LINKER__datatypeIO_Debug CMakeFiles/datatypeIO.dir/datatypeIO.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\datatypeIO.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = datatypeIO.exe
+  TARGET_IMPLIB = libdatatypeIO.dll.a
+  TARGET_PDB = datatypeIO.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Constant
+
+
+#############################################
+# Order-only phony target for Constant
+
+build cmake_object_order_depends_target_Constant: phony || CMakeFiles/Constant.dir
+
+build CMakeFiles/Constant.dir/Constant.c.obj: C_COMPILER__Constant_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/Constant.c || cmake_object_order_depends_target_Constant
+  DEP_FILE = CMakeFiles\Constant.dir\Constant.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Constant.dir
+  OBJECT_FILE_DIR = CMakeFiles\Constant.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Constant
+
+
+#############################################
+# Link the executable Constant.exe
+
+build Constant.exe: C_EXECUTABLE_LINKER__Constant_Debug CMakeFiles/Constant.dir/Constant.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Constant.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Constant.exe
+  TARGET_IMPLIB = libConstant.dll.a
+  TARGET_PDB = Constant.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target seizeOf
+
+
+#############################################
+# Order-only phony target for seizeOf
+
+build cmake_object_order_depends_target_seizeOf: phony || CMakeFiles/seizeOf.dir
+
+build CMakeFiles/seizeOf.dir/seizeOf.c.obj: C_COMPILER__seizeOf_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/seizeOf.c || cmake_object_order_depends_target_seizeOf
+  DEP_FILE = CMakeFiles\seizeOf.dir\seizeOf.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\seizeOf.dir
+  OBJECT_FILE_DIR = CMakeFiles\seizeOf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target seizeOf
+
+
+#############################################
+# Link the executable seizeOf.exe
+
+build seizeOf.exe: C_EXECUTABLE_LINKER__seizeOf_Debug CMakeFiles/seizeOf.dir/seizeOf.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\seizeOf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = seizeOf.exe
+  TARGET_IMPLIB = libseizeOf.dll.a
+  TARGET_PDB = seizeOf.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Operations
+
+
+#############################################
+# Order-only phony target for Operations
+
+build cmake_object_order_depends_target_Operations: phony || CMakeFiles/Operations.dir
+
+build CMakeFiles/Operations.dir/Operation.c.obj: C_COMPILER__Operations_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/Operation.c || cmake_object_order_depends_target_Operations
+  DEP_FILE = CMakeFiles\Operations.dir\Operation.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Operations.dir
+  OBJECT_FILE_DIR = CMakeFiles\Operations.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Operations
+
+
+#############################################
+# Link the executable Operations.exe
+
+build Operations.exe: C_EXECUTABLE_LINKER__Operations_Debug CMakeFiles/Operations.dir/Operation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Operations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Operations.exe
+  TARGET_IMPLIB = libOperations.dll.a
+  TARGET_PDB = Operations.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -237,9 +369,17 @@ build C_Lang: phony C_Lang.exe
 
 build ClockMath: phony ClockMath.exe
 
+build Constant: phony Constant.exe
+
 build If-Else: phony If-Else.exe
 
+build Operations: phony Operations.exe
+
+build datatypeIO: phony datatypeIO.exe
+
 build getFunc: phony getFunc.exe
+
+build seizeOf: phony seizeOf.exe
 
 # =============================================================================
 # Folder targets.
@@ -249,7 +389,7 @@ build getFunc: phony getFunc.exe
 #############################################
 # Folder: C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug
 
-build all: phony C_Lang.exe ClockMath.exe ASCIIValue.exe getFunc.exe If-Else.exe
+build all: phony C_Lang.exe ClockMath.exe ASCIIValue.exe getFunc.exe If-Else.exe datatypeIO.exe Constant.exe seizeOf.exe Operations.exe
 
 # =============================================================================
 # Built-in targets
