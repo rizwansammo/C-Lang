@@ -14,7 +14,7 @@ int main(){
     printf("\n%0.2f", sum);
     printf("\n%d", sub);
     return 0;
-    //getchar();
+    //getch();
 
 
 }

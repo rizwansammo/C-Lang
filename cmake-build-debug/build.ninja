@@ -337,6 +337,171 @@ build Operations.exe: C_EXECUTABLE_LINKER__Operations_Debug CMakeFiles/Operation
   TARGET_IMPLIB = libOperations.dll.a
   TARGET_PDB = Operations.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Conditional
+
+
+#############################################
+# Order-only phony target for Conditional
+
+build cmake_object_order_depends_target_Conditional: phony || CMakeFiles/Conditional.dir
+
+build CMakeFiles/Conditional.dir/Conditional.c.obj: C_COMPILER__Conditional_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/Conditional.c || cmake_object_order_depends_target_Conditional
+  DEP_FILE = CMakeFiles\Conditional.dir\Conditional.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Conditional.dir
+  OBJECT_FILE_DIR = CMakeFiles\Conditional.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Conditional
+
+
+#############################################
+# Link the executable Conditional.exe
+
+build Conditional.exe: C_EXECUTABLE_LINKER__Conditional_Debug CMakeFiles/Conditional.dir/Conditional.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Conditional.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Conditional.exe
+  TARGET_IMPLIB = libConditional.dll.a
+  TARGET_PDB = Conditional.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Conditional2
+
+
+#############################################
+# Order-only phony target for Conditional2
+
+build cmake_object_order_depends_target_Conditional2: phony || CMakeFiles/Conditional2.dir
+
+build CMakeFiles/Conditional2.dir/Conditional2.c.obj: C_COMPILER__Conditional2_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/Conditional2.c || cmake_object_order_depends_target_Conditional2
+  DEP_FILE = CMakeFiles\Conditional2.dir\Conditional2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Conditional2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Conditional2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Conditional2
+
+
+#############################################
+# Link the executable Conditional2.exe
+
+build Conditional2.exe: C_EXECUTABLE_LINKER__Conditional2_Debug CMakeFiles/Conditional2.dir/Conditional2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Conditional2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Conditional2.exe
+  TARGET_IMPLIB = libConditional2.dll.a
+  TARGET_PDB = Conditional2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NestedIf-Else
+
+
+#############################################
+# Order-only phony target for NestedIf-Else
+
+build cmake_object_order_depends_target_NestedIf-Else: phony || CMakeFiles/NestedIf-Else.dir
+
+build CMakeFiles/NestedIf-Else.dir/NestedIf-Else.c.obj: C_COMPILER__NestedIf-Else_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/NestedIf-Else.c || cmake_object_order_depends_target_NestedIf-Else
+  DEP_FILE = CMakeFiles\NestedIf-Else.dir\NestedIf-Else.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\NestedIf-Else.dir
+  OBJECT_FILE_DIR = CMakeFiles\NestedIf-Else.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NestedIf-Else
+
+
+#############################################
+# Link the executable NestedIf-Else.exe
+
+build NestedIf-Else.exe: C_EXECUTABLE_LINKER__NestedIf-Else_Debug CMakeFiles/NestedIf-Else.dir/NestedIf-Else.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NestedIf-Else.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NestedIf-Else.exe
+  TARGET_IMPLIB = libNestedIf-Else.dll.a
+  TARGET_PDB = NestedIf-Else.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OuterIf
+
+
+#############################################
+# Order-only phony target for OuterIf
+
+build cmake_object_order_depends_target_OuterIf: phony || CMakeFiles/OuterIf.dir
+
+build CMakeFiles/OuterIf.dir/OuterIf.c.obj: C_COMPILER__OuterIf_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/OuterIf.c || cmake_object_order_depends_target_OuterIf
+  DEP_FILE = CMakeFiles\OuterIf.dir\OuterIf.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\OuterIf.dir
+  OBJECT_FILE_DIR = CMakeFiles\OuterIf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OuterIf
+
+
+#############################################
+# Link the executable OuterIf.exe
+
+build OuterIf.exe: C_EXECUTABLE_LINKER__OuterIf_Debug CMakeFiles/OuterIf.dir/OuterIf.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OuterIf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OuterIf.exe
+  TARGET_IMPLIB = libOuterIf.dll.a
+  TARGET_PDB = OuterIf.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OuterElse
+
+
+#############################################
+# Order-only phony target for OuterElse
+
+build cmake_object_order_depends_target_OuterElse: phony || CMakeFiles/OuterElse.dir
+
+build CMakeFiles/OuterElse.dir/OuterElse.c.obj: C_COMPILER__OuterElse_Debug C$:/Users/Zero$ Byte/OneDrive/Desktop/C-Lang/OuterElse.c || cmake_object_order_depends_target_OuterElse
+  DEP_FILE = CMakeFiles\OuterElse.dir\OuterElse.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\OuterElse.dir
+  OBJECT_FILE_DIR = CMakeFiles\OuterElse.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OuterElse
+
+
+#############################################
+# Link the executable OuterElse.exe
+
+build OuterElse.exe: C_EXECUTABLE_LINKER__OuterElse_Debug CMakeFiles/OuterElse.dir/OuterElse.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OuterElse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OuterElse.exe
+  TARGET_IMPLIB = libOuterElse.dll.a
+  TARGET_PDB = OuterElse.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -369,11 +534,21 @@ build C_Lang: phony C_Lang.exe
 
 build ClockMath: phony ClockMath.exe
 
+build Conditional: phony Conditional.exe
+
+build Conditional2: phony Conditional2.exe
+
 build Constant: phony Constant.exe
 
 build If-Else: phony If-Else.exe
 
+build NestedIf-Else: phony NestedIf-Else.exe
+
 build Operations: phony Operations.exe
+
+build OuterElse: phony OuterElse.exe
+
+build OuterIf: phony OuterIf.exe
 
 build datatypeIO: phony datatypeIO.exe
 
@@ -389,7 +564,7 @@ build seizeOf: phony seizeOf.exe
 #############################################
 # Folder: C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug
 
-build all: phony C_Lang.exe ClockMath.exe ASCIIValue.exe getFunc.exe If-Else.exe datatypeIO.exe Constant.exe seizeOf.exe Operations.exe
+build all: phony C_Lang.exe ClockMath.exe ASCIIValue.exe getFunc.exe If-Else.exe datatypeIO.exe Constant.exe seizeOf.exe Operations.exe Conditional.exe Conditional2.exe NestedIf-Else.exe OuterIf.exe OuterElse.exe
 
 # =============================================================================
 # Built-in targets

@@ -7,5 +7,10 @@ C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/datatype
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/Constant.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/seizeOf.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/Operations.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/Conditional.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/Conditional2.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/NestedIf-Else.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/OuterIf.dir
+C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/OuterElse.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Zero Byte/OneDrive/Desktop/C-Lang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
